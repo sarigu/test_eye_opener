@@ -2,8 +2,6 @@
 
 * `pip install poetry`
 * `poetry --version`
-
-## Run
-
+* `pipenv shell`
 * `poetry install`
-* `python manage.py runserver`
+* `poetry run python manage.py runserver`
