@@ -75,7 +75,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'eyeopener.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database

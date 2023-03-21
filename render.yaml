@@ -8,7 +8,7 @@ services:
     name: eye-opener
     env: python
     buildCommand: "./build.sh"
-    startCommand: "gunicorn --chdir ./eyeopener.wsgi:application"
+    startCommand: "gunicorn eyeopener.wsgi:application"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
